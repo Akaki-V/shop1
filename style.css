@@ -1,0 +1,116 @@
+body{
+    background-image: url(./img/logo.png ) ;
+}
+div{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+ 
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 2s;
+    background: aqua;
+    font-size: 20px;
+    color: cadetblue;
+}   
+.div1{
+    height: 330px;
+    margin-top: 20px;
+    width: 700;
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+    margin-left: 80rem;
+}
+.btn1:hover{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 2s;
+    background: aqua;
+    font-size: 20px;
+    color: cadetblue;
+}
+.div2{
+    height: 550px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+  .flex-item-left {
+    background-color: green;
+    flex: 20%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-right: 10px;
+}  
+.flex-item-right {
+   background-color: transparent;
+   padding: 10px;
+   flex: 80%;
+   margin-left: 10px;
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+}
+.btn2:hover{
+    border-radius: 10px;
+    padding: 10px;
+    color: cadetblue;
+    background-color: aqua;
+    
+}
+.li{
+    margin-top: 100px;
+}
+.h1{
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: green;
+}
+.div3{
+    height: 500px;
+}
+.li1{
+    text-decoration: underline red 2px;
+}
+.div4{
+    height: 590px;
+}
+.btn3{
+    text-decoration: none;
+    color: black;
+    margin-left: 80rem;
+}
+.btn3:hover{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 2s;
+    background: aqua;
+    font-size: 20px;
+    color: cadetblue;
+}
+
